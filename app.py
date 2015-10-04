@@ -10,7 +10,7 @@ def home():
 
 @app.route('/api/v1/music', methods=['GET'])
 def signin_form():
-    return '{"picUrl":"http://p4.music.126.net/qLBbX25yQf_z_bIVqW8FxQ==/5507453743656093.jpg","url":"http://thirdyires.imusicapp.cn/res/thirdparty/2044/mp3/00/00/14/2044000014010800.mp3"}'
+    return '{"picUrl":"http://p4.music.126.net/URpfuCcFX9QE26UAnZl3nw==/68169720925571.jpg","url":"http://m2.music.126.net/pRAbB3ULXQWOhwxOX6u9Cg==/1119302837083616.mp3"}'
 
 if __name__ == '__main__':
     app.run()
