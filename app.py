@@ -40,7 +40,7 @@ def getMusic():
         name = "关忆北-宋冬野"
         picUrl = "http://p4.music.126.net/mPlr0GoQU2Wl_aZzIgIJ6A==/1984618488161733.jpg"
         url = "http://m2.music.126.net/o9EeErLrcN-uW-ogDRmJ3g==/5847202836624568.mp3"
-    return '{"name":"'+name+'","picUrl":"'+picUrl+'",url":"'+url+'"}'
+    return '{"name":"'+name+'","picUrl":"'+picUrl+'","url":"'+url+'"}'
 
 
 if __name__ == '__main__':
