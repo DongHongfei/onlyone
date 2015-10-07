@@ -2,13 +2,14 @@
 from flask import Flask
 from flask import request
 import datetime
+import sqlite3
 # import time
 # import date
 
 
 
 app = Flask(__name__)
-now = datetime.date.today().strftime("%Y-%m-%d")
+
 
 
 
@@ -23,7 +24,7 @@ def getMusic():
     # 2015-09-28 回来-指南针
     # 2015-09-29 饿狼传说-张学友
     # 2015-10-03 一个人-玲凯/吴青峰
-
+    now = datetime.date.today().strftime("%Y-%m-%d")
     if now == '2015-10-05':
         name = "没有人像我一样-龙宽九段";
         picUrl = "http://p4.music.126.net/URpfuCcFX9QE26UAnZl3nw==/68169720925571.jpg"
