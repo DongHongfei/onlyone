@@ -24,6 +24,7 @@ def getMusic():
     # 2015-09-28 回来-指南针
     # 2015-09-29 饿狼传说-张学友
     # 2015-10-03 一个人-玲凯/吴青峰
+
     now = datetime.date.today().strftime("%Y-%m-%d")
     if now == '2015-10-05':
         name = "没有人像我一样-龙宽九段";
@@ -37,10 +38,24 @@ def getMusic():
         name = "关忆北-宋冬野"
         picUrl = "http://p4.music.126.net/mPlr0GoQU2Wl_aZzIgIJ6A==/1984618488161733.jpg"
         url = "http://m2.music.126.net/o9EeErLrcN-uW-ogDRmJ3g==/5847202836624568.mp3"
+    elif now == '2015-10-10':
+        name = "新房客-王菲"
+        picUrl = "http://p4.music.126.net/4yDIpCMllhrRUFjE1pi7Bw==/50577534889997.jpg"
+        url = "http://m2.music.126.net/3VsnsMVtyk0fUluMZ-x1TQ==/1157785744056740.mp3"
+    elif now == '2015-10-11':
+        name = "新房客-王菲"
+        picUrl = "http://p4.music.126.net/4yDIpCMllhrRUFjE1pi7Bw==/50577534889997.jpg"
+        url = "http://m2.music.126.net/3VsnsMVtyk0fUluMZ-x1TQ==/1157785744056740.mp3"
+    elif now == '2015-10-12':
+        name = "立秋-筠子"
+        picUrl = "http://p3.music.126.net/xYTPXlkkP-QTsbT7WSmTkQ==/835628837110140.jpg"
+        url = "http://m2.music.126.net/o9EeErLrcN-uW-ogDRmJ3g==/5847202836624568.mp3"
     else:
         name = "关忆北-宋冬野"
         picUrl = "http://p4.music.126.net/mPlr0GoQU2Wl_aZzIgIJ6A==/1984618488161733.jpg"
         url = "http://m2.music.126.net/o9EeErLrcN-uW-ogDRmJ3g==/5847202836624568.mp3"
+
+        
     return '{"name":"'+name+'","picUrl":"'+picUrl+'","url":"'+url+'"}'
 
 
