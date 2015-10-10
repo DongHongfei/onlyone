@@ -39,9 +39,9 @@ def getMusic():
         picUrl = "http://p4.music.126.net/mPlr0GoQU2Wl_aZzIgIJ6A==/1984618488161733.jpg"
         url = "http://m2.music.126.net/o9EeErLrcN-uW-ogDRmJ3g==/5847202836624568.mp3"
     elif now == '2015-10-10':
-        name = "新房客-王菲"
-        picUrl = "http://p4.music.126.net/4yDIpCMllhrRUFjE1pi7Bw==/50577534889997.jpg"
-        url = "http://m2.music.126.net/3VsnsMVtyk0fUluMZ-x1TQ==/1157785744056740.mp3"
+        name = "Don't Break My Heart-窦唯"
+        picUrl = "http://p4.music.126.net/KLkcYXJpVzH_9AreV--Cdg==/31885837217563.jpg"
+        url = "http://m2.music.126.net/e0r4q80SPA5yXEMvV4am7A==/1106108697551466.mp3"
     elif now == '2015-10-11':
         name = "新房客-王菲"
         picUrl = "http://p4.music.126.net/4yDIpCMllhrRUFjE1pi7Bw==/50577534889997.jpg"
