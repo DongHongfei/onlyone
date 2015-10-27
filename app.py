@@ -50,10 +50,14 @@ def getMusic():
         name = "立秋-筠子"
         picUrl = "http://p3.music.126.net/xYTPXlkkP-QTsbT7WSmTkQ==/835628837110140.jpg"
         url = "http://m2.music.126.net/o9EeErLrcN-uW-ogDRmJ3g==/5847202836624568.mp3"
-    else:
+    elif now == '2015-10-13':
         name = "关忆北-宋冬野"
         picUrl = "http://p4.music.126.net/mPlr0GoQU2Wl_aZzIgIJ6A==/1984618488161733.jpg"
         url = "http://m2.music.126.net/o9EeErLrcN-uW-ogDRmJ3g==/5847202836624568.mp3"
+    else:
+        name = "丢-布衣乐队"
+        picUrl = "http://p3.music.126.net/M9sYBSiFkH3WMrBBTWupAw==/3121513511336820.jpg"
+        url = "http://m2.music.126.net/h4CcEI2XELCm3leKerMrKg==/1989016534680963.mp3"
     return '{"name":"'+name+'","picUrl":"'+picUrl+'","url":"'+url+'"}'
 
 
