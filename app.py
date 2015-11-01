@@ -54,10 +54,26 @@ def getMusic():
         name = "关忆北-宋冬野"
         picUrl = "http://p4.music.126.net/mPlr0GoQU2Wl_aZzIgIJ6A==/1984618488161733.jpg"
         url = "http://m2.music.126.net/o9EeErLrcN-uW-ogDRmJ3g==/5847202836624568.mp3"
-    else:
+    elif now == '2015-10-14':
         name = "丢-布衣乐队"
         picUrl = "http://p3.music.126.net/M9sYBSiFkH3WMrBBTWupAw==/3121513511336820.jpg"
         url = "http://m2.music.126.net/h4CcEI2XELCm3leKerMrKg==/1989016534680963.mp3"
+    elif now == '2015-11-01':
+        name = "怎么说我不爱你-萧敬腾"
+        picUrl = "http://p4.music.126.net/kM0bdmhoJwtjx6PV5A3T1A==/91259465118157.jpg"
+        url = "http://m2.music.126.net/wywdTcFevEagyJqlmJ9wNg==/3290838302033348.mp3"
+    elif now == '2015-11-02':
+        name = "倔强的青春-鸿水"
+        picUrl = "http://p4.music.126.net/FUCuUujisZUUBuhAOuINEg==/5994537395235983.jpg"
+        url = "http://m2.music.126.net/DtSFrw8thQruPl-ybmIGTw==/5974746185933269.mp3"
+    elif now == '2015-11-03':
+        name = "勿忘心安-张杰"
+        picUrl = "http://p3.music.126.net/_3rFFR1Mv663xtSIO_mvEA==/119846767433726.jpg"
+        url = "http://m2.music.126.net/WO6QEqFtgO47BNuzQ4u7ow==/5801023348300892.mp3"
+    else:
+        name = "给郁结的诗-小安"
+        picUrl = "http://p3.music.126.net/esFr50QMkuZuC5AcOKo8tw==/97856534884250.jpg"
+        url = "http://m2.music.126.net/gFswvDGmLVWh7tKnqoakAg==/1998912139326550.mp3"
     return '{"name":"'+name+'","picUrl":"'+picUrl+'","url":"'+url+'"}'
 
 
